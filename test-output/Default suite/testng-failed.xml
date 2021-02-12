@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automations.softclass">
+      <class name="parallel.failreport">
         <methods>
-          <include name="tc1"/>
+          <include name="tc3"/>
         </methods>
-      </class> <!-- automations.softclass -->
+      </class> <!-- parallel.failreport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
